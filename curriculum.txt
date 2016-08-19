@@ -1,0 +1,96 @@
+﻿Gestor de contenidos: Wordpress, Joomla
+Code: GIT, gitHub, CodePen
+Servidor localhost: Xamp, AppServ
+Manejo de consola: OSX, Linux.
+NodeJS > ExpressJS(framework)
+
+Coming soon:
+SEO, Google analitics, Google adwords
+Ajax, JSon, material design, ecommerce
+Polymer, flexbox
+
+tools:
+CodePicnic
+stack overflow
+
+FrontEnd:
+
+HTML5 / Jade
+CSS3 / SASS
+JavaScript
+JQuery
+
+CMS:
+WordPress, Joomla
+
+Control de versiones:
+Git
+GitHub 
+Team Fundation Server
+
+BackEnd:
+Ruby
+C# .Net
+NodeJS
+
+Web:
+Ecommerce
+SEO
+Material design
+
+Frameworks.
+Ruby on Rails
+AngularJS
+Bootstrap
+Express
+
+Lenguajes:
+C
+C++
+Java
+
+Code:
+Visual Studio Code
+SublimeText
+CodePen 
+
+Arquitectura:
+MVC
+
+IDE:
+Visual Studio
+NetBeans
+
+Servidor Localhost:
+XAMPP
+AppServ
+
+OS:
+OSX
+Linux Ubuntu
+
+Multimedia:
+Adobe Photoshop
+Adobe Ilustrator
+
+Base de datos.
+MySQL
+MongoDB
+
+Metodología:
+Scrum
+
+Organización:
+Jira
+Slack
+Trello 
+
+http://webonise.co.uk/
+https://www.behance.net/gallery/Resume/2615735
+http://www.alvaroweb.com/
+https://www.behance.net/gallery/Infographic-Resume/3074793
+https://www.behance.net/gallery/My-creative-resume/2450349
+https://www.behance.net/gallery/The-CV-Publication/810562
+https://www.behance.net/gallery/Resum/4305681
+https://www.behance.net/gallery/Resume/2615735
+https://www.behance.net/gallery/Resume-Curriculum-Vitae/4394653

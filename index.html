@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="keywords" content="FrontEnd, Developer, Isaac Pérez Ríos">
+<meta name="description" content="Frontend Developer Isaac Pérez Ríos">
+<meta name = "author" content="Isaac Pérez Ríos">
+<meta name="owner" content="Isaac Pérez Ríos">
+<meta name="robots" content="FrontEnd Developer,Isaac Pérez Ríos">
+	<title>Isaac Pérez Ríos</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cerulean/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="style.css">
+	<!--FUENTES  -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">	
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+		$(document).ready(function(){
+			$('section[data-type="parallax_section"]').each(function(){
+				var $bgobj = $(this);
+				$(window).scroll(function(){
+					$window = $(window);
+					var yPos = -($windows.scrollTop() / $bgobj.data('speed'));
+					var coords = '50%' + yPos + 'px';					
+					$bgobj.css({backgroundPosition: coords});
+				});
+			});
+		});		
+		</script>
+		<script>
+  		$(document).ready(function(){
+  			$('[data-toggle="tooltip"]').tooltip();
+  		});
+  	</script>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+				        <span class="sr-only">Menú Despegable</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+      				</button>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+					<ul class="nav navbar-nav navbar-left fa-ul">
+						<li class="active pacifico ">
+						<a href="#" data-toggle="tooltip" data-placement="bottom" data-original-title="Begin">
+						Isaac Pérez Ríos</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">							
+						<li><a href="#section2" data-toggle="tooltip" data-placement="bottom" data-original-title="Develop Skills">
+						<i class="fa fa-tasks fa-lg"></i> Skills</a></li>	
+						<li><a href="#section3" data-toggle="tooltip" data-placement="bottom" data-original-title="Experience in combat">
+						<i class="fa fa-suitcase fa-lg"></i> Work Experience</a></li>
+
+						<!-- <li><a href="https://portalsat.plataforma.sat.gob.mx/RecuperacionDeCertificados/faces/consultaCertificados.xhtml" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="SAT">
+						<i class="fa fa-archive fa-lg"></i> PERI8710304I7</a></li> 
+						-->
+						<li class="pacifico"><a href="https://drive.google.com/file/d/0B-i5kOW_h7-CaHBjMzJBN0NFbVE/view?usp=sharing" target="_blank"><i class="fa  fa-file-pdf-o fa-lg"></i> Curriculum Vitae <span class="sr-only">(current)</span></a></li>		
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+<!-- ---------------- PRIMER SECCIÓN, ENCABEZADO Y DATOS PERSONALES ---------------- -->
+		<section>
+			<div class="container-fluid" id="section1" data-type="parallax_section" data-speed="5">
+				<div class="col-md-6 col-sm-5 col-xs-12 center-block text-center">	
+				<article>
+					<img src="images.jpg" class="img-circle animated fadeIn" alt="Photo" title="Fotografía" height="150px;">
+					<div  class="retraso-1 animated fadeIn">
+						<hgroup>						
+							<h5 class="slateg"><strong>Date of Birth: </strong> 30th October 1987</h5>
+							<h5 class=slateg><strong>Nationality: </strong>Mexican</h5>
+						</hgroup>
+					</div>					
+					<div  class="well retraso-2 animated fadeIn">
+						<hgroup>
+							<h1 class="slateg"><small>FrondEnd Developer</small></h1>
+						<!--	<h6 class="slateg"><strong>Salario solicitado: </strong>$ 12,000.00 MXN Mensuales</h6>-->
+						</hgroup>						
+					</div>
+				<!-- Trigger the modal with a button -->
+					  <button type="button" class="btn btn-success btn-md retraso-2 animated fadeIn" data-toggle="modal" data-target="#myModal1"> Payment$ <i class="fa fa-cc-visa" aria-hidden="true"></i></button>
+					  <button type="button" class="btn btn-danger retraso-2 animated fadeIn" data-toggle="modal"
+					  data-target="#myModal2">Electronic Billing</button>
+				<!-- Modal Payment -->
+					  <div class="modal fade" id="myModal1" role="dialog">
+					    <div class="modal-dialog">					    
+				<!-- Modal content2-->
+					      <div class="modal-content">
+					        <div class="modal-header">
+					          <button type="button" class="close" data-dismiss="modal">&times;</button>
+					          <h4 class="modal-title text-danger">HSBC: Isaac Pérez Ríos</h4>
+					        </div>
+					        <div class="modal-body">
+					        <p>Bank Account: <strong>6417 6320 68</strong></p>
+							<p>CLABE: 0216 5006 4176 3206 81</p>
+							<p>Card Number : 4213 1660 5971 0149</p>
+					        </div>
+					        <div class="modal-footer">
+					          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					        </div>
+					      </div>
+					    </div>
+					  </div>
+				<!-- Modal Billing -->
+					  <div class="modal fade" id="myModal2" role="dialog">
+					    <div class="modal-dialog">					    
+				<!-- Modal content-->
+					      <div class="modal-content">
+					        <div class="modal-header">
+					          <button type="button" class="close" data-dismiss="modal">&times;</button>
+					          <h4 class="text-danger">PERI8710304I7</h4></li>
+					        </div>
+					        <div class="modal-body">
+							<address>
+								Calle Fobos #1B <br>
+								Fraccionamiento los Ángeles <br>
+								CP 72700, Cuautlancingo, Puebla.
+							</address>
+							<a href="http://www.facturainteligente.com/buzon.php" data-toggle="tooltip" data-placement="bottom" data-original-title="Enviar XML" target="_blank"> <i class="fa fa-envelope" aria-hidden="true">
+							</i> Buzón validador</a>
+					        </div>
+					        <div class="modal-footer">
+					        <a href="https://www.appfacturainteligente.com/CFDI/Presentacion/Usuario/RegistroUsuario.aspx?clave=FI-D000207" target="_blank" class="text-danger" data-toggle="tooltip" data-placement="bottom" data-original-title="5 Facturas GRATIS">
+					        <small>¿Nececitas facturar? </small></a>
+					          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					        </div>
+					      </div>
+					    </div>
+					  </div>
+					</article>		
+				</div>
+				<div class="col-md-6 col-sm-7 col-xs-12">	
+					<article>					
+						<div class="list-group animated bounceInDown retraso-2">
+						  <a class="list-group-item"><span class="pacifico">Education and Training: <br></span>
+						  <i class="fa fa-graduation-cap fa-fw"></i>&nbsp;
+						  Science Computer Engineering, BUAP
+						  <span class="slateg">(2006 - 2010)</span>
+						  </a>
+						  <a class="list-group-item"><span class="pacifico">Contact: <br></span>
+						  <i class="fa fa-whatsapp fa-fw"></i>&nbsp;
+						  (044) 2221 26 36 43 <br>
+						  <i class="fa fa-phone fa-fw"></i>&nbsp;
+						  (222) 2 41 54 03 <br>
+						  <i class="fa fa-envelope-o fa-fw"></i>&nbsp;
+						  rios.isaac@webmonster.mx<br>
+						  <i class="fa fa-skype fa-fw"></i>&nbsp;
+						  isaacwebmonster</a>
+						  <a class="list-group-item">
+						  <span class="pacifico">Address: <i class="fa fa-map-marker fa-fw"></i>&nbsp;<address></span> 
+						  <address>
+						  Cerrada Emiliano Zapata LT10, entre Calle Venustiano Carranza y calle Miguel hidalgo,<br> colonia Guadalupe Hidalgo, CP 72490, ciudad de Puebla, México.</address>
+						  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.2434550410294!2d-98.24919467084177!3d18.976763567413236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfb8ec789d52a5%3A0xf63fd2f3acf682e!2sEmiliano+Zapata+LT10%2C+Guadalupe+Hidalgo%2C+72490+Puebla%2C+Pue.%2C+M%C3%A9xico!5e0!3m2!1ses!2smx!4v1469743701479" width="200" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>	
+						  </a>
+						</div>
+					</article>					
+				</div>			
+			</div>	
+		</section>
+		<section id="section1a">
+				<div class="btn-group btn-group-justified">
+					  <a href="https://www.facebook.com/profile.php?id=1207788982" target="_blank"
+					  class="btn btn-primary " title="Facebook"><i class="fa fa-facebook"></i></a>
+					  <a href="https://twitter.com/CyberChakal" target="_blank"
+					  class="btn btn-primary animated bounceIn" title="Twitter"><i class="fa fa-twitter"></i></a>
+					  <a href="http://cyberchakal.tumblr.com/" target="_blank"
+					  class="btn btn-primary animated bounceIn retraso-1" title="Tumblr"><i class="fa fa-tumblr"></i></a>
+					  <a href="https://mx.linkedin.com/in/riosystems" target="_blank"
+					  class="btn btn-primary animated bounceIn retraso-2" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+					  <a href="https://plus.google.com/+IsaacR%C3%ADosWM666/posts" target="_blank" 
+					  class="btn btn-primary animated bounceIn retraso-3" title="Google+"><i class="fa fa-google-plus"></i></a>
+					  <a href="https://www.flickr.com/photos/ak47xacatl/" target="_blank"
+					  class="btn btn-primary animated bounceIn retraso-4" title="Flickr"><i class="fa fa-flickr"></i></a>
+					  <a href="https://es.pinterest.com/webmonstermx/" target="_blank"
+					  class="btn btn-primary animated bounceIn retraso-5" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+					  <a href="https://www.youtube.com/channel/UCH1AJvZbP-4javd5BaznHbw" target="_blank"
+					  class="btn btn-primary animated bounceIn retraso-6" title="Youtube"><i class="fa fa-youtube"></i></a>
+				</div>
+				<br>
+				<div class="col-md-12 center-block text-center">
+					<article>
+					<blockquote>
+						<h3 class="hammer blanco">“One can work harder, but not much more , but you can be more productive. <br>
+						It 's not about working harder, but smarter. <br>And that is done with technology.”</h3>
+						<p class="blanco text-right">Satya Nadella<p>
+					</blockquote>	
+					</articcle>											
+				</div>			
+		</section>
+<!-- ---------------- SEGUNDA SECCIÓN, SKILLS, HABILIDADES Y HERRAMIENTAS DE TRABAJO ---------------- -->
+		<section>		
+			<div class="container-fluid" id="section2" data-type="parallax_section" data-speed="5">
+			<h1 class="pacifico ctitle center-block text-center">Skills and Stack <i class="fa fa-tasks fa-lg"></i></h1>
+				<div class=" center-block text-center">
+					<a class="separate"href="https://github.com/cyberChakal" target="_blank"title="GitHub"><i class="fa fa-github fa-3x"></i></a>			
+					<a class="separate"href="http://codepen.io/cyberChakal/" target="_blank"title="CodePen"><i class="fa fa-codepen fa-3x"></i></a>
+					<a class="separate"href="http://stackoverflow.com/users/6141435/isaac-rios" target="_blank"title="StackOverflow"><i class="fa fa-stack-overflow fa-3x" aria-hidden="true"></i></a>					
+				</div>				
+			<div class="container1">
+			  <div class="items">
+			  	<h4>FrontEnd:</h4>
+				<ul class="trans">
+					<li><strong>HTML5</strong><small> / HAML</small></li>
+					<li><strong>CSS3</strong><small> / SASS /Bootstrap3, MaterialDesign, Materialize, Flexbox</small></li>
+					<li><strong>JavaScript</strong><small> / CoffeScript, JQuery, AngularJS / JSON </small></li>
+				</ul>
+			  </div>
+			  <div class="items">
+			  	<h4>Web Stack:</h4>
+				<ul class="trans">
+					<li>Heroku</li>
+					<li>WordPress</li>
+					<li>Xamp</li>
+					<li>AppServ</li>
+					<li>Wix</li>
+					<li>Conekta</li>
+				</ul>
+			  </div>			  
+			  <div class="items">
+			  	<h4>BackEnd:</h4>
+				<ul class="trans">
+					<li><strong>Ruby</strong><small> / RubyOnRails</small></li>
+					<li><strong>.Net</strong> / C#</li>
+				</ul>
+			  </div>
+			  <div class="items">
+				<h4>Tech:</h4>
+				<ul class="trans">
+					<li>Linux Ubuntu</li>
+					<li>Linux CentOS</li>
+					<li>OSX</li>
+					<li>C</li>
+					<li>C++</li>
+					<li>MySQL</li>
+					<li>MongoDB</li>
+					<li>XML</li>
+					<li>Ilustrator</li>
+					<li>Photoshop</li>
+				</ul>
+			  </div>			  
+			  <div class="items">
+			  	<h4>DevOps Tools:</h4>
+				<ul class="trans">
+					<li>SublimeTex /<small>Zen Coding</small></li>
+					<li>Prepros</li>
+					<li>Docker</li>
+					<li>CodePincnic</li>
+					<li>Visual Studio</li>
+					<li>Microsoft SQL</li>
+					<li>Virtual Box</li>
+				</ul>
+			  </div>
+			  <div class="items">
+			  	<h5>Organization:</h5>
+				<ul class="trans">
+					<li><strong>SCRUM</strong><small> / Jira</small></li>
+					<li>MVC</li>
+					<li>SEO</li>
+					<li>Git</li>
+					<li>Bitbucket</li>
+					<li>TFS</li>
+					<li>Slack</li>
+					<li>Trello <a href="https://trello.com/riosisaac" target="_blank"title="Trello"><i class="fa fa-trello"></i></a></li>
+				</ul>	
+			  </div>
+			</div>
+		</div>
+		</section>
+		<section id="section2a">
+			<img src="fullstack2.png" alt="" class="img-responsive skillimg">
+		</section>
+		<section>
+			<div class="container-fluid center-block text-center" id="section3" data-type="parallax_section" data-speed="5">
+			<h1 class="pacifico well">Work Experience</h1>			
+				<div class="container">
+					  <br>
+					  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+					    <!-- Indicators -->
+					    <ol class="carousel-indicators">
+					      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					      <li data-target="#myCarousel" data-slide-to="1"></li>
+					      <li data-target="#myCarousel" data-slide-to="2"></li>
+					      <li data-target="#myCarousel" data-slide-to="3"></li>
+					      <li data-target="#myCarousel" data-slide-to="4"></li>
+					      <li data-target="#myCarousel" data-slide-to="5"></li>
+					    </ol>
+					    <!-- Wrapper for slides -->
+					    <div class="carousel-inner" role="listbox">
+					      <div class="item ittem active">
+					        <img src="FIbanner.png" alt="FI develop" width="700" height="345" class="ittem">
+					        <div class="carousel-caption">
+					        	<h2 class="negro"><strong>[Web Developer]</strong></h2>
+						    	<p class="negro">Febrero 2015 - Actualidad</p>				 
+					        </div>
+					        <a href="https://www.facturadorinteligente.com" target="_blank" class="hammer">
+					        		https://www.facturadorinteligente.com</a> - 
+					        <a href="http://facturainteligenteintegraciones.com/portaldescargas/Tickets/DatosTicket" target="_blank" class="hammer">
+					        		https://www.facturainteligenteintegraciones/portaldedescargas.com</a>  
+					      </div>
+					      <div class="item ittem">
+					      	<img src="FIBanner1.jpg" alt="FI1" width="700" height="345" class="ittem">
+					      	<div class="carousel-caption">
+					        	<h3 class="negro">[Chief technical support engineer]</h3>
+								<p class="negro">Febrero 2014 - Marzo 2015</p>
+					        </div>
+					      </div>
+					       <div class="item ittem">
+					        <img src="WMbanner.png" alt="Webmonster" width="700" height="345" class="ittem">
+					        <div class="carousel-caption">
+					         <h2 class="blanco hammer"><strong>[FrontEnd Developer]</strong></h2>
+								<p class="blanco">Enero 2011 - Actualidad</p>				        						
+					        </div>
+					        <a href="http://www.webmonster.mx/" target="_blank" class="hammer">
+					        http://www.webmonster.mx/</a> -
+					        <a href="http://www.webmonster.mx/devTeam/" target="_blank" class="hammer">
+					        http://www.webmonster.mx/devTeam/</a>
+					      </div>
+					       <div class="item ittem">
+					        <img src="Feriabanner.png" alt="Feria" width="700" height="345" class="ittem">
+					        <div class="carousel-caption">
+						        <h3 class="negro"><strong>[Technical support engineer]</strong></h3>
+							    <p class="negro">Abril 2013 - Junio 2013</p>						           
+					        </div>
+					      </div>
+					       <div class="item ittem">
+					        <img src="Iaapbanner.png" alt="iaap" width="700" height="345" class="ittem" style="opacity:0.5">
+					        <div class="carousel-caption">
+					         <h3 class="negro hammer"><strong>[IT Bussines]</strong></h3>
+						    <p class="negro">Enero 2013 - Marzo 2013</p>						          
+        					</div>        
+					      </div>
+					       <div class="item ittem">
+						        <img src="Nissanbanner.png" alt="Nissan" width="700" height="345" class="ittem">
+						        <div class="carousel-caption">
+		         					<h3 class="negro"><strong>Nissautos Cholula</strong> <br>[Technical support engineer]</h3>
+								    <p class="negro">Junio 2010 - Agosto 2012<p/>       
+							     </div>
+						     </div>
+    					</div>
+					    <!-- Left and right controls -->
+					    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					      <span class="sr-only">Previous</span>
+					    </a>
+					    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					      <span class="sr-only">Next</span>
+					    </a>
+					  </div>
+					</div>
+				</div>
+		</section>
+	<footer>
+		<div class="container-fluid center-block text-center" id="footer" data-type="parallax_section" data-speed="5">
+			<h1 class="pacifico">Blog</h1>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="caja1">
+							<a href="http://www.facturainteligentemx.blogspot.mx/" class="blanco" target="_blank">
+							Factura Inteligente <h5 class="pacifico blanco">Billing</h5></a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="caja2">
+							<a href="https://webmonstermx.wordpress.com/" class="blanco" target="_blank">
+							WebMonster <h5 class="pacifico blanco">IT Bussines</h5></a>
+						</div>						
+					</div>
+					<div class="col-md-4">
+						<div class="caja3">
+							<a href="http://freaksystem666.blogspot.mx/" class="blanco" target="_blank">
+							Freak System <h5 class="pacifico blanco">Stuff...</h5></a>
+						</div>
+					</div>
+				</div>
+				<br>
+				<i class="fa fa-wordpress fa-4x slateg"></i>
+				<br>
+				<br>
+				<div>
+					<p class="slateg">Powered by <a href="http://www.webmonster.mx/" target="_blank"class="slateg wm">WebMonster TI</a></p>
+					<p class="slateg">Thanks to 
+					<a href="https://www.facebook.com/Oxitocina-Estrategias-en-Marketing-789350281130828/timeline?ref=page_internal" class="slateg" target="_blank">
+					Oxitocina  Marqueting Creativo </a>to woke up my creativity.</p>
+				</div>					
+			</div>
+	</footer>
+</body>
+</html>
