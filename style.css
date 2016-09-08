@@ -16,7 +16,9 @@ img {
 .ittem{
 	min-height: 350px;
 }
-
+.fontmini{
+	font-size: .7em;
+}
 .opaque{
 	opacity: 0.8;
 }
@@ -63,10 +65,22 @@ background-size: cover;
 height: 200px;
 }
 #section3{
-height: 650px;
+height: 900px;
 padding-bottom: 10px;
 padding-top: 10px;
 }
+@media (min-width: 768px) and (max-width: 991px){
+	#section3{
+	height:2300; 
+	min-height: 2436px; 
+	}
+}
+@media (max-width: 767px) {
+	#section3{
+	height:1800px;  
+	}
+}
+
 #footer{
 	background-image: url("dark_wood.png");
 	background-repeat: repeat;
