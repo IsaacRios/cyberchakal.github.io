@@ -16,6 +16,18 @@ img {
 .ittem{
 	min-height: 350px;
 }
+
+.opaque{
+	opacity: 0.8;
+}
+.padding-medium{
+	padding-top: 2em;
+	padding-bottom: 2em;	
+}
+.padding-large{
+	padding-top: 4em;
+	padding-bottom: 4em;	
+}
 .separate{ 
 	padding-left: 20px; 
 }
@@ -35,8 +47,8 @@ background-image: url("slider53.jpg");
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 375px;
-padding-top: 0;
+height: 450px;
+padding-top: 0px;
 padding-bottom: 1%;
 }
 #section2{
@@ -164,14 +176,14 @@ border-style: ridge;
   flex-flow: column wrap; /* Shorthand – you could use ‘flex-direction: column’ and ‘flex-wrap: wrap’ instead */
   -webkit-justify-content: center;
   justify-content: center;
-  height: 490px;
+  height: 500px;
   justify-content: flex-start;
   margin: 0 auto;
   max-width: 900px;
 }
 .items {
   background-color: #161925;
-  height: 240px;
+  height: 250px;
   margin: 1%;
   opacity:0.9;
   padding: 5px;
@@ -180,7 +192,7 @@ border-style: ridge;
 }
 .items:nth-child(2) {
   background-color: #8EA8C3;
-  height: 200px;
+  height: 190px;
 }
 
 .items:nth-child(3) {
@@ -190,12 +202,13 @@ border-style: ridge;
 
 .items:nth-child(4) {
   background-color: #406E8E;
-  height: 275px;
+  height: 230px;
 }
 .items:nth-child(5) {
   background-color: #23395B;
-  height: 210px;
+  height: 205px;
 }
+
 .trans{
 color: #c1cccc;
 font-family: 'Hammersmith One', sans-serif;
