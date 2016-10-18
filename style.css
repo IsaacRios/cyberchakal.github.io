@@ -131,7 +131,7 @@ padding-top: 10px;
 	animation-delay:6s;
 }
 .skillimg{
-	opacity: 0.5;
+	opacity: 0.4;
 }
 .slateg{
 	color:slategray;
@@ -183,9 +183,6 @@ border-style: ridge;
   }
 .container1 {
   align-items: flex-start;
-  background-image: url("fondogif.gif");
-  background-position: center center;
-  background-repeat: no-repeat;
   display: flex;
   flex-flow: column wrap; /* Shorthand – you could use ‘flex-direction: column’ and ‘flex-wrap: wrap’ instead */
   -webkit-justify-content: center;
